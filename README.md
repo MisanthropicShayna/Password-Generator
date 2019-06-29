@@ -7,3 +7,5 @@ There are two generation methods, seed based generation, and occurance based gen
 The binary comes bundled with the [AMOLED](https://github.com/GTRONICK/QSS/blob/master/AMOLED.qss) QSS theme. If you wish to replace the theme, place the new theme in the same folder as the binary, and make sure it's named `style.qss` as that's what the program looks for. If you don't want any theme, just remove the `style.qss` file that comes bundled, and the OS theme will be used instead.
 
 ![](screenshots/mainwindow.png?raw=true)
+
+_Note: I have a OS theme applied on top of the bundled QSS theme, so it may not look exactly identical, however 95% of the elements should look the same._
