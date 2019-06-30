@@ -1,7 +1,7 @@
 #ifndef MAIN_WINDOW_HXX
 #define MAIN_WINDOW_HXX
 
-#include <QtGui/5.12.3/QtGui/private/qcssparser_p.h>
+#include <QtGui/private/qcssparser_p.h>
 #include <QMainWindow>
 #include <QClipboard>
 #include <QMessageBox>
