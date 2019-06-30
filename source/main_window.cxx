@@ -55,16 +55,16 @@ void MainWindow::on_btn_generate_clicked() {
         }
     }
 
-    if(ui->check_special->isChecked()) {
-        for(int32_t i=0; i<ui->spin_specialSize->value(); ++i) {
+    if(ui->check_upper->isChecked()) {
+        for(int32_t i=0; i<ui->spin_upperSize->value(); ++i) {
             const int32_t& random_index = randomNumber_(0, static_cast<int32_t>(strlen(upperCase_)-1));
             const QChar& random_character = upperCase_[random_index];
             password_generation_buffer.push_back(random_character);
         }
     }
 
-    if(ui->check_special->isChecked()) {
-        for(int32_t i=0; i<ui->spin_specialSize->value(); ++i) {
+    if(ui->check_lower->isChecked()) {
+        for(int32_t i=0; i<ui->spin_lowerSize->value(); ++i) {
             const int32_t& random_index = randomNumber_(0, static_cast<int32_t>(strlen(lowerCase_)-1));
             const QChar& random_character = lowerCase_[random_index];
             password_generation_buffer.push_back(random_character);
