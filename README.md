@@ -1,4 +1,4 @@
-# Advanced Password Generator (Qt)
+# Password Generator (Qt)
 This is a general purpose password generator with some unique quirks and features. This was originally part of LSPM, but I decided to rip it out and make it a standalone application, and heavily revamped the code too. Now, it comes bundled with the LSPM binary package instead.
 
 # Features
